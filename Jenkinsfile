@@ -94,7 +94,6 @@ pipeline {
             }
         }
     }
-
     post {
         success {
             echo "Deployment to ECS successful. Check the AWS Console for details."
